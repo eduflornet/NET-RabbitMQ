@@ -5,6 +5,7 @@
     MicroRabbit.Infra.Bus (EventBus library)
 
 
+<img src="https://images2.imgbox.com/e4/7d/hj2VuELR_o.jpg?download=true" width="60%" height="60%">
 
 ### Tools
 - [Visual Studio 2022](https://visualstudio.microsoft.com/vs/)
