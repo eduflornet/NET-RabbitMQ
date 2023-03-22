@@ -3,7 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-<<<<<<< HEAD
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{9333B16B-E7FF-4DF6-BC55-5EDE89693D14}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Bus", "Infra.Bus", "{798E9424-8E21-4D46-AE7B-DEF5D795B57A}"
@@ -16,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Domain.Core", "MicroRabbit.Domain.Core\MicroRabbit.Domain.Core.csproj", "{7F0D7BBE-9DA1-4772-8DA3-70C589AAD462}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Infra.Bus", "MicroRabbit.Infra.Bus\MicroRabbit.Infra.Bus.csproj", "{8F70A0C5-4ED0-4DBD-8D04-10F8D731AD5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,22 +27,19 @@ Global
 		{7F0D7BBE-9DA1-4772-8DA3-70C589AAD462}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F0D7BBE-9DA1-4772-8DA3-70C589AAD462}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F0D7BBE-9DA1-4772-8DA3-70C589AAD462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F70A0C5-4ED0-4DBD-8D04-10F8D731AD5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F70A0C5-4ED0-4DBD-8D04-10F8D731AD5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F70A0C5-4ED0-4DBD-8D04-10F8D731AD5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F70A0C5-4ED0-4DBD-8D04-10F8D731AD5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7F0D7BBE-9DA1-4772-8DA3-70C589AAD462} = {9333B16B-E7FF-4DF6-BC55-5EDE89693D14}
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {56AE2E08-4F0C-4E2E-A5BF-42288ABA3E17}
-=======
-Global
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
+		{8F70A0C5-4ED0-4DBD-8D04-10F8D731AD5A} = {798E9424-8E21-4D46-AE7B-DEF5D795B57A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2569E43B-4D00-463D-A973-F0A0169C0F62}
->>>>>>> ba3f81831fbe071545b9b1086ca58a4519f40dc3
 	EndGlobalSection
 EndGlobal
