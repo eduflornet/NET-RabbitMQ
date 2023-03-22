@@ -1,8 +1,14 @@
 ## [NET6 Microservice with RabbitMQ](https://github.com/eduflornet/NET-RabbitMQ/tree/main/src/MicroRabbit)
 
 ### Implementation Details
-    MicroRabbit.Domain.Core (Domain library)
-    MicroRabbit.Infra.Bus (EventBus library)
+    Libraries
+        - MicroRabbit.Domain.Core (Domain library)
+        - MicroRabbit.Infra.Bus (EventBus library)
+    Microservice Banking 
+        - MicroRabbit.Banking.Api (ASP.NET Web API)
+        - MicroRabbit.Banking.Application (Application library)
+        - MicroRabbit.Banking.Data (Data library)
+        - 
 
 
 <img src="https://images2.imgbox.com/e4/7d/hj2VuELR_o.jpg?download=true" width="60%" height="60%">
