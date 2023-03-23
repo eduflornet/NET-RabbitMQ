@@ -24,11 +24,18 @@
 - [Microsoft.EntityFrameworkCore.Design version 6.0.15](https://learn.microsoft.com/en-us/ef/core/cli/services)
 - [Microsoft.EntityFrameworkCore.SqlServer version 6.0.15](https://learn.microsoft.com/en-us/ef/core/providers/sql-server/?tabs=dotnet-core-cli)
 - [Microsoft.EntityFrameworkCore.Tools version 6.0.15](https://learn.microsoft.com/en-us/ef/core/cli/)
+- [MediatR.Extensions.Microsoft.DependencyInjectionFixed version 5.1.2](https://www.nuget.org/packages/MediatR.Extensions.Microsoft.DependencyInjectionFixed/5.1.2?_src=template)
+- [Swashbuckle.AspNetCore version 6.2.3](https://www.nuget.org/packages/Swashbuckle.AspNetCore)
 - [Docker](https://www.docker.com/)
+
   
 ## [NET6 Sample Console producer and receiver with RabbitMQ Client](https://github.com/eduflornet/NET-RabbitMQ/tree/main/samples/ProducerConsumerRabbitMQ)
 
 ### References
 - [rabbitmqctl](https://www.rabbitmq.com/rabbitmqctl.8.html)
 - [Tutorial: Uso de la inserción de dependencias en .NET](https://learn.microsoft.com/es-mx/dotnet/core/extensions/dependency-injection-usage)
+- [How to add mediatr in .NET 6?](https://stackoverflow.com/questions/72261822/how-to-add-mediatr-in-net-6)
+- [Could not load type 'MediatR.ServiceFactory'](https://stackoverflow.com/questions/75527541/could-not-load-type-mediatr-servicefactory)
+- [MediaTypeNames.Application.Json](https://docs.microsoft.com/en-us/dotnet/api/system.net.mime.mediatypenames.application.json?view=net-7.0)
+- 
 
