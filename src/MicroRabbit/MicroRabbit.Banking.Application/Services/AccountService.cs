@@ -1,5 +1,7 @@
 ﻿
 using MicroRabbit.Banking.Application.Interfaces;
+using MicroRabbit.Banking.Application.Models;
+using MicroRabbit.Banking.Domain.Commands;
 using MicroRabbit.Banking.Domain.Interfaces;
 using MicroRabbit.Banking.Domain.Models;
 using MicroRabbit.Domain.Core.Bus;
@@ -20,6 +22,17 @@ namespace MicroRabbit.Banking.Application.Services
         public IEnumerable<Account> GetAccounts()
         {
             return _accountRepository.GetAccounts();
+        }
+
+        public void TransferFunds(AccountTransferRequest accountTransfer)
+        {
+            var accountTransferCommand = new AccountTransferCommand
+            {
+                FromAccount = accountTransfer.FromAccount,
+                ToAccount = accountTransfer.ToAccount,
+                TransferAmount = accountTransfer.TransferAmount
+            };
+            _eventBus.SendCommand(accountTransferCommand);
         }
     }
 }
