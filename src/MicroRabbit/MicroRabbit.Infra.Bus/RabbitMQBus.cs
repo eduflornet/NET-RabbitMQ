@@ -32,7 +32,7 @@ namespace MicroRabbit.Infra.Bus
         {
             var factory = new ConnectionFactory
             {
-                HostName = "localhost",
+                HostName = "172.17.0.2",
                 Port = 5672
             };
             _rabbitMqConnection = _rabbitMqConnection ?? factory.CreateConnection();

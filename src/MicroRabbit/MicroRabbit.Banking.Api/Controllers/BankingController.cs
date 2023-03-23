@@ -1,4 +1,5 @@
 ﻿using MicroRabbit.Banking.Application.Interfaces;
+using MicroRabbit.Banking.Application.Models;
 using MicroRabbit.Banking.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Net.Mime;
@@ -31,6 +32,19 @@ namespace MicroRabbit.Banking.Api.Controllers
         public ActionResult<IEnumerable<Account>> GetAccounts()
         {
             return Ok(_accountService.GetAccounts());
+        }
+
+        /// <summary>
+        /// Transfers funds between two specified accounts.
+        /// </summary>
+        /// <param name="request">A model that contains information about the transfer of funds.</param>
+        /// <response code="200">OK</response>
+        [HttpPost("accounts/transfer-funds")]
+        [ProducesResponseType(statusCode: StatusCodes.Status200OK, type: typeof(void))]
+        public IActionResult TransferFunds([FromBody] AccountTransferRequest request)
+        {
+            _accountService.TransferFunds(request);
+            return Ok();
         }
 
     }

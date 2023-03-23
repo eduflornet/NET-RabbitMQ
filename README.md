@@ -6,10 +6,24 @@
         - MicroRabbit.Infra.Bus (EventBus library)
     Microservice Banking 
         - MicroRabbit.Banking.Api (ASP.NET Web API)
+          - Controllers
+            - BankingController
+          - Program
         - MicroRabbit.Banking.Application (Application library)
+          - Interfaces
+          - Models
+          - Services
         - MicroRabbit.Banking.Data (Data library)
-        - 
-
+          - Context
+          - Migration
+          - Repository
+        - MicroRabbit.Banking.Domain (Domain library)
+          - CommandHandlers
+          - Commands
+          - EventHandlers
+          - Events
+          - Interfaces
+          - Models
 
 <img src="https://images2.imgbox.com/e4/7d/hj2VuELR_o.jpg?download=true" width="70%" height="70%">
 
@@ -34,8 +48,9 @@
 ### References
 - [rabbitmqctl](https://www.rabbitmq.com/rabbitmqctl.8.html)
 - [Tutorial: Uso de la inserción de dependencias en .NET](https://learn.microsoft.com/es-mx/dotnet/core/extensions/dependency-injection-usage)
-- [How to add mediatr in .NET 6?](https://stackoverflow.com/questions/72261822/how-to-add-mediatr-in-net-6)
-- [Could not load type 'MediatR.ServiceFactory'](https://stackoverflow.com/questions/75527541/could-not-load-type-mediatr-servicefactory)
+- [stackoverflow-How to add mediatr in .NET 6?](https://stackoverflow.com/questions/72261822/how-to-add-mediatr-in-net-6)
+- [stackoverflow-Could not load type 'MediatR.ServiceFactory'](https://stackoverflow.com/questions/75527541/could-not-load-type-mediatr-servicefactory)
 - [MediaTypeNames.Application.Json](https://docs.microsoft.com/en-us/dotnet/api/system.net.mime.mediatypenames.application.json?view=net-7.0)
+- [stackoverflow-Rabbitmq connection refused from Docker container to local host](https://stackoverflow.com/questions/41089268/rabbitmq-connection-refused-from-docker-container-to-local-host)
 - 
 
